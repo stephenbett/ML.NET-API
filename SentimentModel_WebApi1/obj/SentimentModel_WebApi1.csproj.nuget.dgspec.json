@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\stephen.bett\\source\\repos\\ML.NET\\MLapp\\SentimentModel_WebApi1\\SentimentModel_WebApi1.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\stephen.bett\\source\\repos\\ML.NET\\MLapp\\SentimentModel_WebApi1\\SentimentModel_WebApi1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\stephen.bett\\source\\repos\\ML.NET\\MLapp\\SentimentModel_WebApi1\\SentimentModel_WebApi1.csproj",
+        "projectName": "SentimentModel_WebApi1",
+        "projectPath": "C:\\Users\\stephen.bett\\source\\repos\\ML.NET\\MLapp\\SentimentModel_WebApi1\\SentimentModel_WebApi1.csproj",
+        "packagesPath": "C:\\Users\\stephen.bett\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stephen.bett\\source\\repos\\ML.NET\\MLapp\\SentimentModel_WebApi1\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\stephen.bett\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.ML": {
+              "target": "Package",
+              "version": "[1.5.5, )"
+            },
+            "Microsoft.ML": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
