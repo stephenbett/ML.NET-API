@@ -49,3 +49,6 @@ C:\Users\stephen.bett\source\repos\ML.NET\MLapp\SentimentModel_WebApi1\obj\Debug
 C:\Users\stephen.bett\source\repos\ML.NET\MLapp\SentimentModel_WebApi1\obj\Debug\net6.0\SentimentModel_WebApi1.pdb
 C:\Users\stephen.bett\source\repos\ML.NET\MLapp\SentimentModel_WebApi1\obj\Debug\net6.0\SentimentModel_WebApi1.genruntimeconfig.cache
 C:\Users\stephen.bett\source\repos\ML.NET\MLapp\SentimentModel_WebApi1\obj\Debug\net6.0\ref\SentimentModel_WebApi1.dll
+C:\Users\stephen.bett\source\repos\ML.NET\MLapp\SentimentModel_WebApi1\bin\Debug\net6.0\SentimentModel.mbconfig
+C:\Users\stephen.bett\source\repos\ML.NET\MLapp\SentimentModel_WebApi1\bin\Debug\net6.0\System.Numerics.Tensors.dll
+C:\Users\stephen.bett\source\repos\ML.NET\MLapp\SentimentModel_WebApi1\bin\Debug\net6.0\runtimes\win-arm64\native\LdaNative.dll

@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 // Configure app
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddPredictionEnginePool<SentimentModel.ModelInput, SentimentModel.ModelOutput>()
-    .FromFile("SentimentModel.mlnet");
+    .FromFile("SentimentModel.mlnet", watchForChanges: true);
 
 builder.Services.AddEndpointsApiExplorer();
 
@@ -31,7 +31,23 @@ app.UseSwaggerUI(c =>
 // Define prediction route & handler
 app.MapPost("/predict",
     async (PredictionEnginePool<SentimentModel.ModelInput, SentimentModel.ModelOutput> predictionEnginePool, SentimentModel.ModelInput input) =>
-        await Task.FromResult(predictionEnginePool.Predict(input)));
+        await Task.FromResult(predictionEnginePool.Predict(modelName: "SentimentAnalysisModel",input)));
 
 // Run app
 app.Run();
+
+
+public class ModelInput
+{
+    public string SentimentText;
+}
+
+public class ModelOutput
+{
+    [ColumnName("PredictedLabel")]
+    public bool Sentiment { get; set; }
+
+    public float Probability { get; set; }
+
+    public float Score { get; set; }
+}

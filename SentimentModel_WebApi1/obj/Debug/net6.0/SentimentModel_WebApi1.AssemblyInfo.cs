@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SentimentModel_WebApi1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+52aa4f75f2e1dac8a078d638bdbd3f88a66e21cb")]
 [assembly: System.Reflection.AssemblyProductAttribute("SentimentModel_WebApi1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SentimentModel_WebApi1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
